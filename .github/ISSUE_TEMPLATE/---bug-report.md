@@ -6,13 +6,24 @@ labels: bug
 assignees: ""
 ---
 
-### Expected behavior
-
-
-### Actual behavior
-
-
-### Steps to reproduce the behavior
-
-
-##### Tested on [desktop_web_iOS_or_Android], OS [name_and_version], Browser [name_and_version], Simplenote app [version]
+### Screenshots and/or description of expected behavior
+ 
+ 
+### Describe what happens instead of the expected behavior
+ 
+ 
+### List the steps to reproduce the behavior
+1. 
+2. 
+3. 
+ 
+If you cannot reproduce this bug consistently, please elaborate.
+ 
+### ***(Required)*** Where you saw the bug happen
+ 
+Please list each place where you saw the bug happen and delete the other items from the list.
+ - OS: Mac, Windows, Linux, iOS, Android, Web
+ - OS version: 
+ - Browser (if applicable): 
+ - Browser version (if applicable): 
+ - Simplenote app version: 
