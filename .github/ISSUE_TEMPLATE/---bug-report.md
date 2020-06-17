@@ -9,7 +9,7 @@ assignees: ""
 ### Screenshots and/or description of expected behavior
  
  
-### Describe what happens instead of the expected behavior
+### Screenshots and/or description of observed behavior
  
  
 ### List the steps to reproduce the behavior
@@ -18,6 +18,8 @@ assignees: ""
 3. 
  
 If you cannot reproduce this bug consistently, please elaborate.
+
+If applicable, add screenshots, animations, or videos to help illustrate your problem.
  
 ### ***(Required)*** Where you saw the bug happen
  
