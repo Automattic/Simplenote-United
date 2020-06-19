@@ -6,23 +6,21 @@ labels: bug
 assignees: ""
 ---
 
-### Screenshots and/or description of expected behavior
- 
- 
-### Screenshots and/or description of observed behavior
- 
- 
-### List the steps to reproduce the behavior
-1. 
-2. 
-3. 
- 
-If you cannot reproduce this bug consistently, please elaborate.
+Please, be as descriptive as possible.  Issues lacking detail, or for any other reason than to report a bug, may be closed without action.
+
+### Expected
+
+### Observed
+
+### List the steps to reproduce
+> 1. Go to...
+> 2. Click on...
+> 3. See error...
 
 If applicable, add screenshots, animations, or videos to help illustrate your problem.
- 
-### ***(Required)*** Where you saw the bug happen
- 
+
+### Where did you see the bug
+
 Please list each place where you saw the bug happen and delete the other items from the list.
  - OS: Mac, Windows, Linux, iOS, Android, Web
  - OS version: 
