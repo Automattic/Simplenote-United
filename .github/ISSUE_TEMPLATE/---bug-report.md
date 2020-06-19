@@ -21,8 +21,7 @@ If applicable, add screenshots, animations, or videos to help illustrate your pr
 
 ### Where did you see the bug
 
-Please list each place where you saw the bug happen and delete the other items from the list.
- - OS: Mac, Windows, Linux, iOS, Android, Web
+ - OS:
  - OS version: 
  - Browser (if applicable): 
  - Browser version (if applicable): 
