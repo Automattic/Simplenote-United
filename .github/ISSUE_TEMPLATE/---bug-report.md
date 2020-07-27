@@ -8,11 +8,11 @@ assignees: ""
 
 Please, be as descriptive as possible.  Issues lacking detail, or for any other reason than to report a bug, may be closed without action.
 
-### Expected
+### Expected Functionality (Required)
 
-### Observed
+### Observed Functionality (Required)
 
-### List the steps to reproduce
+### Steps to reproduce (Required)
 > 1. Go to...
 > 2. Click on...
 > 3. See error...
