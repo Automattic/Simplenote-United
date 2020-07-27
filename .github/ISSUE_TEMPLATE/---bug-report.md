@@ -6,7 +6,7 @@ labels: bug
 assignees: ""
 ---
 
-Please, be as descriptive as possible.  Issues lacking detail, or for any other reason than to report a bug, may be closed without action.
+<!-- Please, be as descriptive as possible.  Issues lacking detail, or for any other reason than to report a bug, may be closed without action. -->
 
 ### Expected
 <!-- ***(Required)*** Add a concise description of what you expected. -->
@@ -20,7 +20,7 @@ Please, be as descriptive as possible.  Issues lacking detail, or for any other 
 > 2. Click on...
 > 3. See error...
 
-***(Optional)*** If applicable, add screenshots, animations, or videos to help illustrate your problem.
+<!-- ***(Optional)*** If applicable, add screenshots, animations, or videos to help illustrate your problem. -->
 
 ### Where did you see the bug
 <!-- ***(Required)*** -->
