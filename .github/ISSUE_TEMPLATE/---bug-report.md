@@ -15,10 +15,16 @@ assignees: ""
 <!-- ***(Required)*** Add a concise description of what you observed. -->
 
 ### Reproduced
-<!-- ***(Required)*** If you cannot reproduce this bug consistently, please elaborate.  List the steps to reproduce the behavior.  For example: -->
-> 1. Go to...
-> 2. Click on...
-> 3. See error...
+<!--
+***(Required)*** If you cannot reproduce this bug consistently, please elaborate.  List the steps to reproduce the behavior.  For example: 
+1. Go to...
+2. Click on...
+3. See error...
+-->
+
+1.
+2.
+3.
 
 <!-- ***(Optional)*** If applicable, add screenshots, animations, or videos to help illustrate your problem. -->
 
