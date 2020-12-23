@@ -5,4 +5,4 @@ This repository tracks features and issues that [Simplenote](https://simplenote.
 * [iOS](https://github.com/automattic/simplenote-iOS)
 * [Android](https://github.com/automattic/simplenote-android)
 * [macOS](https://github.com/automattic/simplenote-macos)
-* [Windows/Linux](https://github.com/automattic/simplenote-electron)
+* [Windows/Linux and web (app.simplenote.com)](https://github.com/automattic/simplenote-electron)
