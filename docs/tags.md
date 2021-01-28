@@ -74,3 +74,25 @@ A collision happens when we rename a tag and there is already a tag with the sam
 Steps to merge “dog” tag into "cat" tag:
 * Iterate over the notes replacing "dog" tag with "cat" tag. If the note already has "cat" tag, remove "dog" tag from the note.
 * Delete "dog" tag.
+
+---
+
+## Tag issues
+
+### Tag entity stored with wrong entity id
+
+Tag entities are referenced by their tag hash. The canonical tag name is one of many lexical variations that collapse to the same tag hash. In many accounts we will find inconsistencies in the database because the apps did not always properly store tags. These inconsistencies can lead to issues in the UI, such as showing the wrong subset of notes for a given tag.
+
+Consider the tag `Bücher` whose entity id should be `b%C3%BCcher`. If stored as `Bücher` we might end up with two tag entities whose tag hashses collapse to the same value. This would appear as a tag collision.
+
+In these cases we ought to resolve the inconsistency by removing the tag with the wrong entity id. We need to be careful when doing this to make sure that the stored tag name in the inconsistent tag entity is an actual lexical variation of the tag's canonical name. It's possible that through renaming a tag we could end up with a worse issue, which is that the name of the tag collapses to a tag hash for a different tag name.
+
+#### Examples
+
+|Entity Id|Tag Name|Tag Hash|Matches?|Action|
+|---|---|---|---|---|
+|`B%C3%BCcher`|`Bücher`|`b%C3%BCcher`|✅|Do nothing|
+|`Bücher` | `Bücher` | `b%C3%BCcher` |❌|Ensure tag entity `B%C3%BCcher` exists and then remove tag entity `Bücher`|
+|`Bücher`| `Books` | `books`|❌|Ensure tag entity `books` exists and then remove tag entity `Bücher`. Ensure tag entity `B%C3%BCcher` exists.|
+
+These are lossy processes. It may be the case that note entities reference `Bücher` as the tag but because of the inconsistencies those notes have been appearing in the note list when the `Books` tag is selected. After the fix this will no longer be the case. This is because tags are stored referencing their names through the tag hash instead of being independent entities referenced by their unchanging id.
