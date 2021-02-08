@@ -23,6 +23,7 @@ Constraints on a tag name:
 
 * At least one character
 * No spaces
+* No commas
 * Resulting hash can’t be longer than 256 characters
 
 
@@ -41,6 +42,12 @@ Steps to add a tag to a note:
 * Check if note already has the same tag
 * Check if the tag already exists in the tag bucket. If the tag doesn’t exist, create a new tag.
 * Add the tag to the note
+
+### Tag separators
+When adding tags from a client the following should be used as separators:
+
+* White space
+* Comma
 
 
 ## Removing a tag from a note
